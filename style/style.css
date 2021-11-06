@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#main-section {
+  margin: auto;
+}
+
+.sections {
+  width: 100%;
+  height: 100vh;
+}
+
+#section1 {
+  background: url("http://res.heraldm.com/content/image/2020/10/13/20201013000806_0.jpg")
+    no-repeat center;
+  /* background-color: aqua; */
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+#section2 {
+  background-color: rgb(204, 206, 206);
+  /* padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px; */
+}
+
+h2 {
+  margin-top: 0;
+  /* I had a similar problem as before, due to the margin on top */
+}
+
+#section3 {
+  background-color: rgb(158, 158, 158);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+#section4 {
+  background: url("https://static.wanted.co.kr/images/company/13522/kuzx2edrrirl29ae__1080_790.jpg")
+    no-repeat center;
+  height: 100vh;
+  width: auto;
+  background-size: cover;
+  /* background-color: blue; */
+}
