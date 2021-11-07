@@ -121,14 +121,15 @@ table {
   border-radius: 50%;
   width: 7%;
   position: absolute;
-  left: 20px;
+  left: 150px;
 }
 
 #thirdCircleImage {
   border-radius: 50%;
   width: 7%;
   position: absolute;
-  left: 150px;
+  left: 250px;
+  top: 2156px;
 }
 
 #fourthdCircleImage {
@@ -136,6 +137,7 @@ table {
   width: 7%;
   position: absolute;
   left: 250px;
+  top: 2256px;
 }
 
 #fifthCircleImage {
@@ -146,18 +148,21 @@ table {
 }
 
 /* right side */
+
 #sixthCircleImage {
   border-radius: 50%;
   width: 7%;
   position: absolute;
-  right: 20px;
+  right: 150px;
 }
+/* here ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd */
 
 #seventhCircleImage {
   border-radius: 50%;
   width: 7%;
   position: absolute;
-  right: 150px;
+  right: 250px;
+  top: 2156px;
 }
 
 #eighthCircleImage {
@@ -165,6 +170,7 @@ table {
   width: 7%;
   position: absolute;
   right: 250px;
+  top: 2256px;
 }
 
 #ninthCircleImage {
