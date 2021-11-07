@@ -10,8 +10,11 @@ body {
 .sections {
   width: 100%;
   height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
+/* section 1 */
 #section1 {
   background: url("http://res.heraldm.com/content/image/2020/10/13/20201013000806_0.jpg")
     no-repeat center;
@@ -21,11 +24,20 @@ body {
   background-size: cover;
 }
 
+/* section 2 */
 #section2 {
-  background-color: rgb(204, 206, 206);
   /* padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 30px; */
+  padding-right: 30px;*/
+  padding-top: 30px;
+}
+
+/* can make this into one along with section3Content */
+#section2Content {
+  /* margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 40px; */
+  width: 80%;
+  color: rgb(32, 32, 90);
 }
 
 h2 {
@@ -33,13 +45,136 @@ h2 {
   /* I had a similar problem as before, due to the margin on top */
 }
 
-#section3 {
-  background-color: rgb(158, 158, 158);
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 30px;
+#section2Smallheading {
+  margin-bottom: 0;
 }
 
+#section2paragraph {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.greenCell {
+  background-color: rgb(24, 85, 16);
+  color: white;
+}
+
+.whiteCell {
+  color: rgb(24, 85, 16);
+  background-color: white;
+}
+
+#section2Image {
+  width: 100%;
+  height: 58%;
+  margin-top: 30px;
+}
+
+/* section 3 */
+#section3 {
+  background-color: rgb(158, 158, 158);
+}
+
+#section3Content {
+  /* margin-left: 40px;
+  margin-right: 40px; */
+  padding-top: 40px;
+  width: 80%;
+  color: rgb(32, 32, 90);
+}
+
+#sectionMiddleheading {
+  margin-bottom: 5px;
+}
+
+#section3Middleparagraph {
+  width: 60%;
+  margin-top: 0;
+}
+
+#section3Bottomheading {
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+
+#imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+/* center circle */
+.circleImage {
+  border-radius: 50%;
+  width: 7%;
+  position: relative;
+}
+
+/* left side */
+#secondCircleImage {
+  border-radius: 50%;
+  width: 7%;
+  position: absolute;
+  left: 20px;
+}
+
+#thirdCircleImage {
+  border-radius: 50%;
+  width: 7%;
+  position: absolute;
+  left: 150px;
+}
+
+#fourthdCircleImage {
+  border-radius: 50%;
+  width: 7%;
+  position: absolute;
+  left: 250px;
+}
+
+#fifthCircleImage {
+  border-radius: 50%;
+  width: 7%;
+  position: absolute;
+  left: 350px;
+}
+
+/* right side */
+#sixthCircleImage {
+  border-radius: 50%;
+  width: 7%;
+  position: absolute;
+  right: 20px;
+}
+
+#seventhCircleImage {
+  border-radius: 50%;
+  width: 7%;
+  position: absolute;
+  right: 150px;
+}
+
+#eighthCircleImage {
+  border-radius: 50%;
+  width: 7%;
+  position: absolute;
+  right: 250px;
+}
+
+#ninthCircleImage {
+  border-radius: 50%;
+  width: 7%;
+  position: absolute;
+  right: 350px;
+}
+
+/* section 4 */
 #section4 {
   background: url("https://static.wanted.co.kr/images/company/13522/kuzx2edrrirl29ae__1080_790.jpg")
     no-repeat center;
